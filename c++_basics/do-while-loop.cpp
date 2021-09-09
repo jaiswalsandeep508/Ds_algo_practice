@@ -5,11 +5,12 @@ using namespace std;
    int n;
    cin>>n;
 
-   while(n>0){
+   do{
      cout<<n;
      cin>>n;
    }
 
+   while(n>0);
 
 
    return 0;

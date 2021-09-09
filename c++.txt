@@ -1,0 +1,42 @@
+string[] for a indexing
+string.find(string,start index)
+string.substr(starting index,how many charatcters i want to grab)
+
+number 
+cout<<
+      pow 
+      sqrt 
+      round(4.5)=4
+      ciel roind the no. to height no.
+      floor round the no. to lower no.
+      fmax takes two no. and gives higher no.use for comapairosn
+      fmin opposite of fmax
+cin :- getline(cin,var); used for to get line of text 
+       getline.ignore(); ignore white spaces
+       getline(cin>>ws,var); ignore white space
+
+c++ notes coding blocks 
+
+
+1. arrays is a homogenous // it takes only same data type 
+sizeof(a) //array 
+
+2.linear search 
+
+3. <climit> //  gives the maximum range  for int 
+int max // max calue 
+int min // min value 
+
+
+int n;
+string str [10] = {"Greater than 9","one","two","three","for","five","six","seven","eight","nine"};
+cin>>n;
+if (n>9){
+cout<<str[n];
+}
+else {
+cout<<str[n];
+}
+ return 0;
+
+auto keyword is used to define data type auto automaically detect data type

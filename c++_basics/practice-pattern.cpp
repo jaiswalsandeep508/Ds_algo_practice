@@ -4,6 +4,19 @@ using namespace std;
 
 int main(){
 
+
+  // half pyramid using no. of rows
+  // int n;
+  // cout<<"enter the no of rows: ";
+  // cin>>n;
+
+  // for(int i=1;i<=n;i++){
+  //   for(int j=1;j<=i;j++){
+  //     cout<<i;
+  // }
+  // cout<<endl;
+  // }
+
 // pyramid pattern
 //   int n;
 // cout<<"enter the no. of rows: ";
@@ -25,21 +38,6 @@ int main(){
 //      cout<<endl;
 //   }
 
- return 0;
-}
-
-//  int row,col; 
-// cout<<"enter the no. of rows: ";
-// cin>>row;
-// cout<<"enter the no. of columns: ";
-// cin>>col;
-
-// half pyramid 
-
-
-
-
-
 
 
 // inverted half pyramid 
@@ -52,10 +50,6 @@ int main(){
 //   cout<<endl;
 
 // }
-
-
-
-
 
 
 // hollow reactangle pattern 
@@ -79,3 +73,6 @@ int main(){
 //     }
 //     cout<<endl;
 // } 
+
+ return 0;
+}

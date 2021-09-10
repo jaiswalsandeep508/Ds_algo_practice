@@ -4,6 +4,20 @@ using namespace std;
 
 int main(){
 
+  //floyds triangle
+
+  int n,count=1;
+  cout<< "enter the no. of rows ";
+  cin>>n;
+
+  for(int i=1;i<=n;i++){
+    for(int j=1;j<=i;j++){
+      cout<<count <<" ";
+      count++;
+    }
+    cout<<endl;
+  }
+
 
   // half pyramid using no. of rows
   // int n;

@@ -4,6 +4,30 @@ using namespace std;
 
 int main(){
 
+// pyramid pattern
+//   int n;
+// cout<<"enter the no. of rows: ";
+// cin>>n;
+
+//   for(int i=1;i<=n;i++){
+//     for(int j=1;j<=n;j++){
+//       if (j<=n-i)
+//       {
+//         cout<<" ";
+
+//       }
+//       else
+//       {
+//         cout<<"*";
+//       }
+//     }
+    
+//      cout<<endl;
+//   }
+
+ return 0;
+}
+
 //  int row,col; 
 // cout<<"enter the no. of rows: ";
 // cin>>row;
@@ -12,33 +36,22 @@ int main(){
 
 // half pyramid 
 
-// int n;
-// cout<<"enter the no. of rows: ";
-// cin>>n;
 
-// for (int i=1;i<=n;i++){
-//   for(int j=1;j<=n;j++){
-//     if (j<=n-i){
-//       cout<<" ";
-//     }
-//     else{
-//       cout<<"*";
-//     }
-//     cout<<endl;
-// }
+
+
 
 
 
 // inverted half pyramid 
-int n;
-cin>>n;
-for (int i=n;i>=1;i--){
-  for(int j=1;j<=i;j++){ 
-    cout<<"*";
-  }
-  cout<<endl;
+// int n;
+// cin>>n;
+// for (int i=n;i>=1;i--){
+//   for(int j=1;j<=i;j++){ 
+//     cout<<"*";
+//   }
+//   cout<<endl;
 
-}
+// }
 
 
 
@@ -65,9 +78,4 @@ for (int i=n;i>=1;i--){
 //     cout<<"*";
 //     }
 //     cout<<endl;
-// }
-  
-
-  return 0;
-
-}
+// } 

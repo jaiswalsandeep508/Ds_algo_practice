@@ -4,7 +4,7 @@ using namespace std;
 
 void bubble(int array[],int n){
 
-  for (int itr=1;itr<=n-1;itr++){
+  for (int itr=0;itr<n-1;itr++){
 
 
      for(int j=0;j<=(n-1-itr);j++){
